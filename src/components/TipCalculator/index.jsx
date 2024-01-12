@@ -3,7 +3,7 @@ import './TipCalculator.css';
 import BillInput from '../BillInput';
 import TipButtons from '../TipButtons';
 import PeopleInput from '../PeopleInput';
-import { reset, calcularTip, esCero, claseActivo, calcularTotal } from '../../utilities';
+
 
 const TipCalculator = () => {
     const [bill, setBill] = useState(0);

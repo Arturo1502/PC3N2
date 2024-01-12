@@ -19,7 +19,6 @@ const PeopleInput = ({ people, setPeople }) => {
             <h2>Number of People</h2>
             {showError && (
                 <span id="aloha" className="aloha">
-                    
                 </span>
             )}
             <label htmlFor="input-people">
